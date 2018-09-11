@@ -1,4 +1,7 @@
-import { configure } from '@storybook/react';
+import { configure, addDecorator } from '@storybook/react';
+
+import 'tachyons'
+import 'ipfs-css'
 
 // automatically import all files ending in *.stories.js
 const req = require.context('../src', true, /.stories.js$/);
