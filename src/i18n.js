@@ -16,6 +16,10 @@ i18n
   .init({
     fallbackLng: 'en',
     debug: true,
+    backend: {
+      // load locales from relative path
+      loadPath: 'locales/{{lng}}/{{ns}}.json',
+    },
     // react i18next special options (optional)
     react: {
       wait: true,
