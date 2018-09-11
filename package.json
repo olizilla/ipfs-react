@@ -1,0 +1,34 @@
+{
+  "name": "ipfs-react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook -p 6006 --static-dir public",
+    "build-storybook": "build-storybook --static-dir public --output-dir docs"
+  },
+  "author": "olizilla",
+  "license": "MIT",
+  "dependencies": {
+    "i18next": "^11.8.0",
+    "i18next-browser-languagedetector": "^2.2.3",
+    "i18next-icu": "^0.6.0",
+    "i18next-xhr-backend": "^1.5.1",
+    "react": "^16.5.0",
+    "rebass": "^3.0.0-1",
+    "styled-components": "^4.0.0-beta.3"
+  },
+  "devDependencies": {
+    "@storybook/addon-actions": "^3.4.10",
+    "@storybook/addon-links": "^3.4.10",
+    "@storybook/addons": "^3.4.10",
+    "@storybook/react": "^3.4.10",
+    "babel-core": "^6.26.3",
+    "babel-runtime": "^6.26.0",
+    "ipfs-css": "^0.9.0",
+    "prop-types": "^15.6.2",
+    "react-dom": "^16.5.0",
+    "react-i18next": "^7.12.0"
+  }
+}
