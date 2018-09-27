@@ -4,6 +4,7 @@ import i18n from '../i18n'
 import themeDecorator from '../theme-decorator'
 import StyledFooter from './footer.styled.js'
 import TachyonsFooter from './footer.tachyons.js'
+import Footer from './Footer.js'
 
 storiesOf('Footer', module)
   .addDecorator(themeDecorator)
@@ -15,5 +16,10 @@ storiesOf('Footer', module)
   .add('tachyons', () => (
     <div style={{fontFamily: 'system-ui', padding: 10 }}>
       <TachyonsFooter codeUrl="https://github.com/ipfs-shipyard/ipld-explorer-components" i18n={i18n} />
+    </div>
+  ))
+  .add('postcss', () => (
+    <div style={{fontFamily: 'system-ui', padding: 10 }}>
+      <Footer codeUrl="https://github.com/ipfs-shipyard/ipld-explorer-components" i18n={i18n} />
     </div>
   ))
