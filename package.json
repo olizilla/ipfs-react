@@ -28,6 +28,7 @@
     "babel-core": "^6.26.3",
     "babel-runtime": "^6.26.0",
     "ipfs-css": "^0.9.0",
+    "postcss-preset-moxy": "^2.3.0",
     "prop-types": "^15.6.2",
     "react-dom": "^16.5.0",
     "react-i18next": "^7.12.0",
